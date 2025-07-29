@@ -22,4 +22,4 @@ if __name__ == "__main__":
                               'completed': task['completed'],
                               'username': username})
             data = {"{}".format(user_id): tasks}
-            json.dump(data, json_file
+            json.dump(data, json_file)
